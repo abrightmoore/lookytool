@@ -1,0 +1,2 @@
+# lookytool
+Bedrock accessibility addon.
