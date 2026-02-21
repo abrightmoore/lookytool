@@ -1,0 +1,9 @@
+{
+    "resource_pack_name": "twf_looky", 
+    "texture_data": {
+        "twf_looky_guide": {
+            "textures": "textures/twf/looky/items/guide_tex"
+        }
+    }, 
+    "texture_name": "atlas.items"
+}

@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "pack.description",
+		"min_engine_version": [1, 20, 81],
+		"name": "pack.name",
+		"uuid": "f0ec080a-30b4-489e-a9eb-513fd30d04fa",
+		"version": [1, 0, 0],
+		"pack_scope": "world"
+	},
+	"metadata": {
+		"product_type": "addon",
+		"authors": ["TheWorldFoundry"]
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"type": "data",
+			"uuid": "687ac49e-36f8-47b3-8351-3a3720877e28",
+			"version": [1, 0, 0]
+		},
+		{
+			"description": "Scripting",
+			"uuid": "0fac248f-3dd3-4b84-8a26-8ea09679a689",
+			"version": [1, 0, 0],
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/twf/looky/lookytool_api1100_v2.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.10.0"
+		},
+		{
+		  "module_name": "@minecraft/server-ui",
+		  "version": "1.1.0"
+		},		
+		{
+			"uuid": "fd064935-17a7-4753-840d-007a8609461a",
+			"version": [1, 0, 0]
+		}
+	]
+}
